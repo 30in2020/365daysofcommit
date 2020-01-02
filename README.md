@@ -10,9 +10,7 @@
 
 ### Day 1: January 1, 2020 (Wed)
 
-**Today's Focus (keyword)**: Learn and code [SWR](https://swr.now.sh/).
-
-> Tag: `SWR`, `React`, `Typescript`
+**Today's Focus**: Learn and code [SWR](https://swr.now.sh/).
 
 **Details**:
 
@@ -27,6 +25,31 @@
 | [Feat: create swr-experiment directory](https://github.com/30in2020/doodles/commit/e6bd9624509fcfdfab2ec55d0785be78d6352c64)              | `Boilerplate`                |
 | [Feat: try global config and data-fetch code of SWR](https://github.com/30in2020/doodles/commit/afe76513f98dd8f07027e68efb2444acba91013b) | `SWR`, `React`, `Typescript` |
 | Chore: Add README.md                                                                                                                      | `Documentation`              |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/swr-experiment)
+
+**Reference**:
+
+- [SWR - Github Repository](https://github.com/zeit/swr)
+
+---
+
+### Day 2: January 2, 2020 (Thu)
+
+**Today's Focus**: Continue learning [SWR](https://swr.now.sh/) library.
+
+**Details**:
+
+- Tried to use React.Suspense mode with [SWR](https://swr.now.sh/). By just passing `suspense: true` to useSWR's option parameter, it enabled me to use the mode.
+- Also tried data fetching using GraphQL. Used [GraphQLZero](https://graphqlzero.almansi.me/) for implementing fake APIs.
+
+**Commits**:
+
+| Message                                                                                                                                    | Tags                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- |
+| [Feat: use graphql fetching and suspense mode of swr](https://github.com/30in2020/doodles/commit/6f3a776a0b6f2e6fbd55bab48bf6055fdab945b3) | `SWR`, `React`, `GraphQL`, `React.Suspense`, `Typescript` |
 
 **Links to work**:
 
