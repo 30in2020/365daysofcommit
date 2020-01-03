@@ -60,3 +60,35 @@
 - [SWR - Github Repository](https://github.com/zeit/swr)
 
 ---
+
+### Day 3: January 3, 2020 (Fri)
+
+**Today's Focus**: Learn how to make WebGL glitch effect with scroll interaction. Search a shader sample to use.
+
+**Details**:
+
+[![monokai_tokyo](./assets/Jan-03-2020_monokai_tokyo.gif "Monokai: a trip through Japan")](https://monokai.nl/2019/japan/)
+
+> [Monokai: A trip through Japan](https://monokai.nl/2019/japan/)
+
+- I found a cool project called 'A trip through Japan'. I love the way it uses shader effects for the character animation on background. I don't know the specific name of shaders, but it seems like using glitch and noise shader...just my assumption.
+- Checked with the inspector and realized that the letters in front ('Tokyo' and caption) and behind (kanji) are separated into different layers. The former is DOM, and the latter is canvas using WebGL.
+- With reference to this artwork, I'm going to make a similar one. (Instead, I wanted to make it using React as a precondition.) I searched the shader samples and found a good one I was looking for: [GlitchFilter](https://github.com/pixijs/pixi-filters/tree/master/filters/glitch) of [Pixi.js](https://www.pixijs.com/). I need to modify the original code to use it on react environment. I will do it tomorrow...
+- By the way, today there was a first pull request from this account. 🎉
+
+**Commits**:
+
+| Message                                                                                                                               | Tags                             |
+| ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| [Feat: create glitch-with-sync-scroll directory](https://github.com/30in2020/doodles/commit/83e19350868533ec41307183dd2acb6f3ee516d3) | `Boilerplate`                    |
+| [Feat: add PixiJS's GlitchFilter module](https://github.com/30in2020/doodles/commit/c4e8bdd162bf6a6b9a3ecc038c2333f7d43ce87a)         | `Graphics`, `Shader`, `WebGL`    |
+| [Update unused method name in docs](https://github.com/30in2020/website/commit/e88a51fa08ac71d89a796a8498852ba5ca625ff4)              | `Documentation`, `PR`, `Flutter` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/glitch-with-sync-scroll)
+
+**Reference**:
+
+- [Monokai: A trip through Japan](https://monokai.nl/2019/japan/)
+- [Pixi filter Demo](https://pixijs.io/pixi-filters/tools/demo/)
