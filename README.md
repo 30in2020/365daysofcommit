@@ -92,3 +92,31 @@
 
 - [Monokai: A trip through Japan](https://monokai.nl/2019/japan/)
 - [Pixi filter Demo](https://pixijs.io/pixi-filters/tools/demo/)
+
+---
+
+### Day 4: January 4, 2020 (Sat)
+
+**Today's Focus**: Find a React renderer modules for three.js.
+
+**Details**:
+
+- There was a lot of three.js module using React, such as `react-three`, `react-three-renderer`, and `react-three-fiber`. I chose [`react-three-fiber`](https://github.com/react-spring/react-three-fiber) because it works fine in React v16, and it comes with a lot of hooks already.
+
+**Commits**:
+
+| Message                                                                                                                          | Tags                                             |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| [Feat: add react-three-fiber, three module](https://github.com/30in2020/doodles/commit/6a3d0f70b38b83d74587296ca4de490eb134da2c) | `react-three-fiber`, `Boilerplate`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/glitch-with-sync-scroll)
+
+**Reference**:
+
+- [react-three-fiber: repository](https://github.com/react-spring/react-three-fiber)
+- [Tutorial: react-three-fiber & typescript starter code](https://codesandbox.io/s/react-three-fiber-ho4i8?from-embed)
+- [Tutorial: Write three.js in React Using react-three-fiber](https://alligator.io/react/react-with-threejs/)
+
+---
