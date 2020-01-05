@@ -120,3 +120,34 @@
 - [Tutorial: Write three.js in React Using react-three-fiber](https://alligator.io/react/react-with-threejs/)
 
 ---
+
+### Day 5: January 5, 2020 (Sun)
+
+**Today's Focus**: Add `useScrollPosition` hook.
+
+**Details**:
+
+- Added `useScrollPosition` hook, referring to [this article](https://dev.to/n8tb1t/tracking-scroll-position-with-react-hooks-3bbj). I learned some facts about Hooks which I didn't usually know, such as the difference between `useEffect` and `useLayoutEffect`, and when to use `useRef` instead of `useState`.
+  - `useEffect` runs asynchronously and after a render is painted to the screen. That goes:
+    1. You cause a render somehow (change state, or the parent re-renders) 2. React renders your component (calls it) 3. The screen is visually updated 4. THEN useEffect runs
+  - `useLayoutEffect` runs synchronously after a render but before the screen is updated. That goes: 1. You cause a render somehow (change state, or the parent re-renders) 2. React renders your component (calls it) 3. useLayoutEffect runs, and React waits for it to finish. 4. The screen is visually updated
+  - According to React Hooks reference guide, `useRef` is useful for more than the ref attribute. It’s handy for keeping any mutable value around similar to how you’d use instance fields in classes. If you want to use a stateful value that won't trigger re-render on each state change, use `useRef`.
+- Refactored the `GlitchFilter` code to make it usable with React context.
+
+**Commits**:
+
+| Message                                                                                                                                          | Tags                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |
+| [Feat: add useScrollPosition hook](https://github.com/30in2020/doodles/commit/a7b5fadee271ad44f101b494bac8234c34a43ee4)                          | `Hooks`, `React`, `Typescript` |
+| [Refactor: make the GlitchFilter usable with React context](https://github.com/30in2020/doodles/commit/e6a54515e88c80dc58e911304a3a57ad53aa0521) | `Graphics`, `Shader`, `WebGL`  |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/glitch-with-sync-scroll)
+
+**Reference**:
+
+- [Article: When to useLayoutEffect Instead of useEffect](https://daveceddia.com/useeffect-vs-uselayouteffect/)
+- [Tutorial: Tracking Scroll Position With React Hooks](https://dev.to/n8tb1t/tracking-scroll-position-with-react-hooks-3bbj)
+
+---
