@@ -158,3 +158,27 @@
 - [Tutorial: Tracking Scroll Position With React Hooks](https://dev.to/n8tb1t/tracking-scroll-position-with-react-hooks-3bbj)
 
 ---
+
+### Day 6: January 6, 2020 (Mon)
+
+**Today's Focus**: Learn how to use `react-three-fiber` with shaders.
+
+**Details**:
+
+- It seems that `react-three-fiber` makes me deal with three.js code 'more React way'. Thanks to `extend` function, I could write the shader code in JSX like I was coding a normal react component. Also, it seems that I can pass uniform parameter by just giving prop data to shader components. Needs more research...
+
+**Commits**:
+
+| Message                                                                                                                    | Tags                                                 |
+| -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Feat: add EffectComposer and passes](https://github.com/30in2020/doodles/commit/7ee9fd369b1389ce4d67cf0977e169340ae95065) | `Graphics`, `Shader`, `WebGL`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/glitch-with-sync-scroll)
+
+**Reference**:
+
+- [Code: Three.js's GlitchPass](https://github.com/mrdoob/three.js/blob/27811881f61e647ae2b8b009e3032f62739c2c25/examples/js/postprocessing/GlitchPass.js#L75)
+
+---
