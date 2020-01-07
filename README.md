@@ -82,7 +82,7 @@
 | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
 | [Feat: create glitch-with-sync-scroll directory](https://github.com/30in2020/doodles/commit/83e19350868533ec41307183dd2acb6f3ee516d3) | `Boilerplate`                    |
 | [Feat: add PixiJS's GlitchFilter module](https://github.com/30in2020/doodles/commit/c4e8bdd162bf6a6b9a3ecc038c2333f7d43ce87a)         | `Graphics`, `Shader`, `WebGL`    |
-| [Update unused method name in docs](https://github.com/30in2020/website/commit/e88a51fa08ac71d89a796a8498852ba5ca625ff4)              | `Documentation`, `PR`, `Flutter` |
+| [Update unused method name in docs](https://github.com/30in2020/website/commit/e88a51fa08ac71d89a796a8498852ba5ca625ff4)              | `PR`, `Documentation`, `Flutter` |
 
 **Links to work**:
 
@@ -180,5 +180,30 @@
 **Reference**:
 
 - [Code: Three.js's GlitchPass](https://github.com/mrdoob/three.js/blob/27811881f61e647ae2b8b009e3032f62739c2c25/examples/js/postprocessing/GlitchPass.js#L75)
+
+---
+
+### Day 7: January 7, 2020 (Tue)
+
+**Today's Focus**: Learn `MethodChannel` of `Flutter` by reading official documents.
+
+**Details**:
+
+- Learned about the fundamentals of `MethodChannel` of `Flutter`. `MethodChannel` makes it possible to communicate between Flutter and native code.
+- The implementation of `MethodChannel` varies depending on the package. According to official documents, in case of `Android`, implementing MethodChannel logic inside the `configureFlutterEngine()` is recommended. Some of the documents were out of sync with the latest version, so I fixed it and sent PR.
+
+**Commits**:
+
+| Message                                                                                                                         | Tags                             |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| [Fix: update unused argument name in docs](https://github.com/30in2020/website/commit/65be9647e1fef53a9d8539d73cae2067ef06aa10) | `PR`, `Documentation`, `Flutter` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/website/tree/patch-1)
+
+**Reference**:
+
+- [Document: Writing custom platform-specific code](https://flutter.dev/docs/development/platform-integration/platform-channels?tab=android-channel-java-tab)
 
 ---
