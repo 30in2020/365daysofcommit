@@ -207,3 +207,50 @@
 - [Document: Writing custom platform-specific code](https://flutter.dev/docs/development/platform-integration/platform-channels?tab=android-channel-java-tab)
 
 ---
+
+### Day 8: January 8, 2020 (Wed)
+
+**Today's Focus**: Learn how to change(and animate) shader values of post-processing filters using `react-three-fiber`.
+
+**Details**:
+
+![glitch_scroll_20200108](./assets/Jan-08-2020_glitch_with_scroll_sync.gif "GlitchPass, HalftonePass, FilmPass with react-three-fiber")
+
+> Animated GIF showing the sample I made today.
+
+- Few days ago, I tried to modify the [GlitchFilter](https://github.com/pixijs/pixi-filters/tree/master/filters/glitch) code to use this filter in React environment, but I decided to try it after studying more. I don't think I can do it right now because I'm stuck in the basics. Instead, I used `GlitchPass` (and also `FilmPass`, `HalftonePass`) that were built in Three.js.
+- Learned how to change shader's uniform value when using `react-three-fiber`. Pass the value to `uniform-${uniform_variable_name}-value` prop of Pass components, like this:
+  ```html
+  <effectComposer ref="{composer}" args="{[gl]}">
+    <renderPass attachArray="passes" scene="{scene}" camera="{camera}" />
+    <glitchPass attachArray="passes" x renderToScreen />
+    <halftonePass
+      attachArray="passes"
+      uniforms-blending-value="{1}"
+      renderToScreen
+    />
+    <filmPass
+      uniforms-grayscale-value="{0}"
+      attachArray="passes"
+      renderToScreen
+    />
+  </effectComposer>
+  ```
+
+**Commits**:
+
+| Message                                                                                                                                                    | Tags                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Feat: make it possible to control shader parameters by scroll event](https://github.com/30in2020/website/commit/09bf52bc32c4b09f3ac25e53db7a7ccad70148a1) | `Graphics`, `Shader`, `WebGL`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/glitch-with-sync-scroll)
+
+**Reference**:
+
+- [Example: Sample of react-three-fiber](https://github.com/react-spring/react-three-fiber/blob/master/examples/demos/dev/Scroll.js)
+- [Document: EffectComposer and Pass examples](https://threejs.org/docs/#examples/en/postprocessing/EffectComposer)
+- [Tutorial: Three.js Post Processing](https://threejsfundamentals.org/threejs/lessons/threejs-post-processing.html)
+
+---
