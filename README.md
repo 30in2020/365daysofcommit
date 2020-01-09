@@ -254,3 +254,30 @@
 - [Tutorial: Three.js Post Processing](https://threejsfundamentals.org/threejs/lessons/threejs-post-processing.html)
 
 ---
+
+### Day 9: January 9, 2020 (Thu)
+
+**Today's Focus**: Add `react-dat-gui` to make it possible to control shader parameters by using `dat.GUI`.
+
+**Details**:
+
+- To control shader parameters by GUI, I tried `react-dat-gui` library, the React version of `dat.GUI`. (`dat.GUI` is commonly used in the Three.js project.)
+- First I installed this module using npm. However, the released version on npm did not contain the index.d.ts file, causing a complie error. Be cafeful!
+
+**Commits**:
+
+| Message                                                                                                                                      | Tags                              |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| [Feat: add react-dat-gui module and make DatGuiPanel](https://github.com/30in2020/doodles/commit/4def5ce850f09031a1a8da348dd231aa9a6f7899)   | `Graphics`, `React`, `Typescript` |
+| [Feat: make it possible to control params using DatGui](https://github.com/30in2020/doodles/commit/c8a177cdb894d19b9fcfdad223a76bb4c64c1bb7) | `Graphics`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/glitch-with-sync-scroll)
+
+**Reference**:
+
+- [Repo: react-dat-gui](https://github.com/claus/react-dat-gui)
+- [issue: react-dat-gul - index.d.ts is not published to npm](https://github.com/claus/react-dat-gui/issues/42)
+
+---
