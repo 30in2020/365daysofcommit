@@ -281,3 +281,29 @@
 - [issue: react-dat-gul - index.d.ts is not published to npm](https://github.com/claus/react-dat-gui/issues/42)
 
 ---
+
+### Day 10: January 10, 2020 (Fri)
+
+**Today's Focus**: Make it possible to control GlitchPass by using dat.GUI. (not finished yet...)
+
+**Details**:
+
+- Added the uniform values of `GlitchPass` to `dat.GUI`. Unfortunately, because I've deleted all the random values in `GlitchPass.render`, the effect animation looks like broken. Need to fix it tomorrow...
+- Also, I learned how to get a flutter app to communicate with webview in both directions. It uses `webview_flutter` and `JavascriptChannel`. I will upload the code about this in a few days.
+
+**Commits**:
+
+| Message                                                                                                                       | Tags                              |
+| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| [Feat: add GlitchPass params to dat.GUI](https://github.com/30in2020/doodles/commit/a6e58203b3f985cdcd432e1aa7a95328392973b3) | `Graphics`, `React`, `Typescript` |
+| [Fix: update unused names in docs](https://github.com/30in2020/website/commit/e3b0754eb8ecf7d7ee15134785dcaccb15915d41)       | `PR`, `Documentation`, `Flutter`  |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/glitch-with-sync-scroll)
+
+**Reference**:
+
+- [Repo: react-dat-gui](https://github.com/claus/react-dat-gui)
+
+---
