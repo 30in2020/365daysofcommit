@@ -307,3 +307,30 @@
 - [Repo: react-dat-gui](https://github.com/claus/react-dat-gui)
 
 ---
+
+### Day 11: January 11, 2020 (Sat)
+
+**Today's Focus**: try Github GraphQL API v4
+
+**Details**:
+
+- Tried using Github API v4. Unlike the previous version, it uses GraphQL.
+- Using the `SWR` I used last time, I'm going to make a sample code fetching various data of Github.
+
+**Commits**:
+
+| Message                                                                                                                     | Tags                                           |
+| --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [Feat: create github-api-v4 directory](https://github.com/30in2020/doodles/commit/ea6b121bb5a2ea47432ea3ce4d1af7ce01c41750) | `Github API`, `React`, `Typescript`            |
+| [Feat: try Github API's graphql query](https://github.com/30in2020/doodles/commit/829cb2371aedafd6abf3f2019f89959db336f4ac) | `Github API`, `GraphQL`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/github-api-v4)
+
+**Reference**:
+
+- [Document: Github GraphQL API v4](https://developer.github.com/v4/guides/forming-calls/#authenticating-with-graphql)
+- [Github GraphQL API Explorer](https://developer.github.com/v4/explorer/)
+
+---
