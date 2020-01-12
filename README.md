@@ -334,3 +334,30 @@
 - [Github GraphQL API Explorer](https://developer.github.com/v4/explorer/)
 
 ---
+
+### Day 12: January 12, 2020 (Sun)
+
+**Today's Focus**: Write some sample codes of Github GraphQL API v4
+
+**Details**:
+
+- Finally I managed to get right data using Github GraphQL API v4. I wrote some sample codes, such as fetching pinned repositories, the information of repositories, commit history, and PR list.
+- It seems there is no API for getting files' patch history in API v4. If I want to get modified file list, I think I should use the previous version.
+
+**Commits**:
+
+| Message                                                                                                                           | Tags                                           |
+| --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [Feat: add Github GraphQL API fetch samples](https://github.com/30in2020/doodles/commit/eccd656ee384a906b91ecf3c227bdbe2b4d833c8) | `Github API`, `GraphQL`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/github-api-v4)
+
+**Reference**:
+
+- [Document: Github GraphQL API v4](https://developer.github.com/v4/guides/forming-calls/#authenticating-with-graphql)
+- [Github GraphQL API Explorer](https://developer.github.com/v4/explorer/)
+- [stackoverflow: Get commit changed files & patch using github API v4 graphQL](https://stackoverflow.com/questions/58058535/get-commit-changed-files-patch-using-github-api-v4-graphql)
+
+---
