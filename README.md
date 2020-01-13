@@ -361,3 +361,32 @@
 - [stackoverflow: Get commit changed files & patch using github API v4 graphQL](https://stackoverflow.com/questions/58058535/get-commit-changed-files-patch-using-github-api-v4-graphql)
 
 ---
+
+### Day 13: January 13, 2020 (Mon)
+
+**Today's Focus**: Using Github GraphQL API v4, REST API v3, and `diff2html` library
+
+**Details**:
+
+- Using GraphQL API v4, now I can fetch the ratio of languages used in one repository. It has two interger parameter called `totalSize` and `size`, so I can calculate the ratio of languages by using these values. Also, I used REST API v3 for getting a patch string of single commit.
+- I wanted to show the patch/diff string beautifully, so I decided to use `diff2html` library but because of some unexpected errors, it didn't worked well. I'll fix this tomorrow...
+
+**Commits**:
+
+| Message                                                                                                                                        | Tags                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [Feat: make it possible to get language ratio of repo](https://github.com/30in2020/doodles/commit/baae36a2dbb84cbd8d8a41dab3d0a08fd855fece)    | `Github API`, `GraphQL`, `React`, `Typescript` |
+| [Feat: add code getting a single commit with patch param](https://github.com/30in2020/doodles/commit/b5510626780d0a2b600536bf3955681acc9eefaf) | `Github API`, `GraphQL`, `React`, `Typescript` |
+| [Feat: install diff2html module](https://github.com/30in2020/doodles/commit/f10a079d0256a43a756a8a86e509ff1145e465b8)                          | `Github API`, `GraphQL`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/github-api-v4)
+
+**Reference**:
+
+- [Document: Github GraphQL API v4](https://developer.github.com/v4/guides/forming-calls/#authenticating-with-graphql)
+- [Document: Github REST API v3](https://developer.github.com/v3/repos/commits/#get-a-single-commit)
+- [Repository: diff2html](https://github.com/rtfpessoa/diff2html/)
+
+---
