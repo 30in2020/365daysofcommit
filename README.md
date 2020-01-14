@@ -373,11 +373,11 @@
 
 **Commits**:
 
-| Message                                                                                                                                        | Tags                                           |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| [Feat: make it possible to get language ratio of repo](https://github.com/30in2020/doodles/commit/baae36a2dbb84cbd8d8a41dab3d0a08fd855fece)    | `Github API`, `GraphQL`, `React`, `Typescript` |
-| [Feat: add code getting a single commit with patch param](https://github.com/30in2020/doodles/commit/b5510626780d0a2b600536bf3955681acc9eefaf) | `Github API`, `GraphQL`, `React`, `Typescript` |
-| [Feat: install diff2html module](https://github.com/30in2020/doodles/commit/f10a079d0256a43a756a8a86e509ff1145e465b8)                          | `Github API`, `GraphQL`, `React`, `Typescript` |
+| Message                                                                                                                                        | Tags                                             |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| [Feat: make it possible to get language ratio of repo](https://github.com/30in2020/doodles/commit/baae36a2dbb84cbd8d8a41dab3d0a08fd855fece)    | `Github API`, `GraphQL`, `React`, `Typescript`   |
+| [Feat: add code getting a single commit with patch param](https://github.com/30in2020/doodles/commit/b5510626780d0a2b600536bf3955681acc9eefaf) | `Github API`, `GraphQL`, `React`, `Typescript`   |
+| [Feat: install diff2html module](https://github.com/30in2020/doodles/commit/f10a079d0256a43a756a8a86e509ff1145e465b8)                          | `Github API`, `diff2html`, `React`, `Typescript` |
 
 **Links to work**:
 
@@ -388,5 +388,31 @@
 - [Document: Github GraphQL API v4](https://developer.github.com/v4/guides/forming-calls/#authenticating-with-graphql)
 - [Document: Github REST API v3](https://developer.github.com/v3/repos/commits/#get-a-single-commit)
 - [Repository: diff2html](https://github.com/rtfpessoa/diff2html/)
+
+---
+
+### Day 14: January 14, 2020 (Tue)
+
+**Today's Focus**: Learn how to use `diff2html` and show modified file list.
+
+**Details**:
+
+- Kept thinking about how to get the diff string of single commit. Finally I found the [`document about media type`](https://developer.github.com/v3/media/#diff). I could get the diff string by setting media type to `application/vnd.github.v3.diff`.
+- Now I think the next mission is how to apply different color scheme to the code for each language.
+
+**Commits**:
+
+| Message                                                                                                                        | Tags                                             |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ |
+| [Fix: show changed files using diff2html](https://github.com/30in2020/doodles/commit/646d4c302d47d1c28721d998ad8101a681fed88f) | `Github API`, `diff2html`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/github-api-v4)
+
+**Reference**:
+
+- [Document: Media Type](https://developer.github.com/v3/media/#diff)
+- [Repository: diff2html](https://github.com/rtfpessoa/diff2html#diff2html-usage)
 
 ---
