@@ -220,6 +220,7 @@
 
 - Few days ago, I tried to modify the [GlitchFilter](https://github.com/pixijs/pixi-filters/tree/master/filters/glitch) code to use this filter in React environment, but I decided to try it after studying more. I don't think I can do it right now because I'm stuck in the basics. Instead, I used `GlitchPass` (and also `FilmPass`, `HalftonePass`) that were built in Three.js.
 - Learned how to change shader's uniform value when using `react-three-fiber`. Pass the value to `uniform-${uniform_variable_name}-value` prop of Pass components, like this:
+
   ```html
   <effectComposer ref="{composer}" args="{[gl]}">
     <renderPass attachArray="passes" scene="{scene}" camera="{camera}" />
@@ -396,6 +397,10 @@
 **Today's Focus**: Learn how to use `diff2html` and show modified file list.
 
 **Details**:
+
+![diff2html](./assets/Jan-14-2020_diff2html_example.png "diff2html sample I made today")
+
+> diff2html sample I made today
 
 - Kept thinking about how to get the diff string of single commit. Finally I found the [`document about media type`](https://developer.github.com/v3/media/#diff). I could get the diff string by setting media type to `application/vnd.github.v3.diff`.
 - Now I think the next mission is how to apply different color scheme to the code for each language.
