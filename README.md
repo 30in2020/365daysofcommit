@@ -464,3 +464,33 @@
 - [Repository: diff2html](https://github.com/rtfpessoa/diff2html#diff2html-usage)
 
 ---
+
+<a name="day-15"></a>
+
+### Day 15: January 15, 2020 (Wed)
+
+**Today's Focus**: Refactor codes in doodles/. Add Table of Contents in README.md.
+
+**Details**:
+
+- There were some module errors with the `glitch-with-sync-scroll` repo's code, so I fixed it.
+- Also I added the text in the scene of `glitch-with-sync-scroll`. `Text()` function I added renders text via canvas and projects it as a sprite.
+- Finally, to quickly find a content by keyword, I added Table of Contents on the top of the log file.
+
+**Commits**:
+
+| Message                                                                                                                                  | Tags                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [Fix: fix module errors in react-dat-gui](https://github.com/30in2020/doodles/commit/40e73d13ad5bcb3ed927ee893bf90c6b80234eb9)           | `react-dat-gui`, `React`, `Typescript` |
+| [Feat: add text element in react-three-fiber scene](https://github.com/30in2020/doodles/commit/efc79bc89e180e1d0dc73d0271515af418a176d7) | `Sprite`, `spriteMaterial`             |
+| [Docs: add table of contents in README.md](https://github.com/30in2020/doodles/commit/613ed31009e1bb40a5b2250fa92271ebe3e1404b)          | `Documentation`                        |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/glitch-with-sync-scroll)
+
+**Reference**:
+
+- [Codesandbox: react-three-fiber & text tutorial](https://codesandbox.io/s/y3j31r13zz)
+
+---
