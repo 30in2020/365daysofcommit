@@ -8,6 +8,23 @@
 
 ---
 
+## Table of Contents
+
+| Day                               |                                            Focus | Day                               |                                                 Focus |
+| :-------------------------------- | -----------------------------------------------: | :-------------------------------- | ----------------------------------------------------: |
+| [Day 1](#day-1)<br>**01/01/20**   |                           **_SWR_**<br>React, TS | [Day 2](#day-2)<br>**01/02/20**   |                        **_SWR_**<br>Suspense, GraphQL |
+| [Day 3](#day-3)<br>**01/03/20**   |             **_GlitchFilter_**<br>React, Flutter | [Day 4](#day-4)<br>**01/04/20**   |                   **_react-three-fiber_**<br>Graphics |
+| [Day 5](#day-5)<br>**01/05/20**   |                             **_Hooks_**<br>React | [Day 6](#day-6)<br>**01/06/20**   |           **_react-three-fiber_**<br>Shader, Three.js |
+| [Day 7](#day-7)<br>**01/07/20**   |                   **_MethodChannel_**<br>Flutter | [Day 8](#day-8)<br>**01/08/20**   | **_react-three-fiber_**<br>EffectComposer, GlitchPass |
+| [Day 9](#day-9)<br>**01/09/20**   |         **_react-dat-gui_**<br>Graphics, dat.GUI | [Day 10](#day-10)<br>**01/10/20** |                           **_GlitchPass_**<br>Flutter |
+| [Day 11](#day-11)<br>**01/11/20** |                          **_Github API_**<br>SWR | [Day 12](#day-12)<br>**01/12/20** |                           **_Github API_**<br>GraphQL |
+| [Day 13](#day-13)<br>**01/13/20** |   **_diff2html_**<br>Github API v3, diff & patch | [Day 14](#day-14)<br>**01/14/20** |                         **_diff2html_**<br>Media Type |
+| [Day 15](#day-15)<br>**01/15/20** | **_Documentation_**<br>Sprite, react-three-fiber |                                   |                                                       |
+
+---
+
+<a name="day-1"></a>
+
 ### Day 1: January 1, 2020 (Wed)
 
 **Today's Focus**: Learn and code [SWR](https://swr.now.sh/).
@@ -36,6 +53,8 @@
 
 ---
 
+<a name="day-2"></a>
+
 ### Day 2: January 2, 2020 (Thu)
 
 **Today's Focus**: Continue learning [SWR](https://swr.now.sh/) library.
@@ -60,6 +79,8 @@
 - [SWR - Github Repository](https://github.com/zeit/swr)
 
 ---
+
+<a name="day-3"></a>
 
 ### Day 3: January 3, 2020 (Fri)
 
@@ -95,6 +116,8 @@
 
 ---
 
+<a name="day-4"></a>
+
 ### Day 4: January 4, 2020 (Sat)
 
 **Today's Focus**: Find a React renderer modules for three.js.
@@ -120,6 +143,8 @@
 - [Tutorial: Write three.js in React Using react-three-fiber](https://alligator.io/react/react-with-threejs/)
 
 ---
+
+<a name="day-5"></a>
 
 ### Day 5: January 5, 2020 (Sun)
 
@@ -159,6 +184,8 @@
 
 ---
 
+<a name="day-6"></a>
+
 ### Day 6: January 6, 2020 (Mon)
 
 **Today's Focus**: Learn how to use `react-three-fiber` with shaders.
@@ -182,6 +209,8 @@
 - [Code: Three.js's GlitchPass](https://github.com/mrdoob/three.js/blob/27811881f61e647ae2b8b009e3032f62739c2c25/examples/js/postprocessing/GlitchPass.js#L75)
 
 ---
+
+<a name="day-7"></a>
 
 ### Day 7: January 7, 2020 (Tue)
 
@@ -207,6 +236,8 @@
 - [Document: Writing custom platform-specific code](https://flutter.dev/docs/development/platform-integration/platform-channels?tab=android-channel-java-tab)
 
 ---
+
+<a name="day-8"></a>
 
 ### Day 8: January 8, 2020 (Wed)
 
@@ -256,6 +287,8 @@
 
 ---
 
+<a name="day-9"></a>
+
 ### Day 9: January 9, 2020 (Thu)
 
 **Today's Focus**: Add `react-dat-gui` to make it possible to control shader parameters by using `dat.GUI`.
@@ -283,6 +316,8 @@
 
 ---
 
+<a name="day-10"></a>
+
 ### Day 10: January 10, 2020 (Fri)
 
 **Today's Focus**: Make it possible to control GlitchPass by using dat.GUI. (not finished yet...)
@@ -308,6 +343,8 @@
 - [Repo: react-dat-gui](https://github.com/claus/react-dat-gui)
 
 ---
+
+<a name="day-11"></a>
 
 ### Day 11: January 11, 2020 (Sat)
 
@@ -336,6 +373,8 @@
 
 ---
 
+<a name="day-12"></a>
+
 ### Day 12: January 12, 2020 (Sun)
 
 **Today's Focus**: Write some sample codes of Github GraphQL API v4
@@ -362,6 +401,8 @@
 - [stackoverflow: Get commit changed files & patch using github API v4 graphQL](https://stackoverflow.com/questions/58058535/get-commit-changed-files-patch-using-github-api-v4-graphql)
 
 ---
+
+<a name="day-13"></a>
 
 ### Day 13: January 13, 2020 (Mon)
 
@@ -391,6 +432,8 @@
 - [Repository: diff2html](https://github.com/rtfpessoa/diff2html/)
 
 ---
+
+<a name="day-14"></a>
 
 ### Day 14: January 14, 2020 (Tue)
 
