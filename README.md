@@ -19,7 +19,7 @@
 | [Day 9](#day-9)<br>**01/09/20**   |         **_react-dat-gui_**<br>Graphics, dat.GUI | [Day 10](#day-10)<br>**01/10/20** |                           **_GlitchPass_**<br>Flutter |
 | [Day 11](#day-11)<br>**01/11/20** |                          **_Github API_**<br>SWR | [Day 12](#day-12)<br>**01/12/20** |                           **_Github API_**<br>GraphQL |
 | [Day 13](#day-13)<br>**01/13/20** |   **_diff2html_**<br>Github API v3, diff & patch | [Day 14](#day-14)<br>**01/14/20** |                         **_diff2html_**<br>Media Type |
-| [Day 15](#day-15)<br>**01/15/20** | **_Documentation_**<br>Sprite, react-three-fiber |                                   |                                                       |
+| [Day 15](#day-15)<br>**01/15/20** | **_Documentation_**<br>Sprite, react-three-fiber | [Day 16](#day-16)<br>**01/16/20** |                 **_cron_**<br>Github API, Node.js, TS |
 
 ---
 
@@ -483,7 +483,7 @@
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | [Fix: fix module errors in react-dat-gui](https://github.com/30in2020/doodles/commit/40e73d13ad5bcb3ed927ee893bf90c6b80234eb9)           | `react-dat-gui`, `React`, `Typescript` |
 | [Feat: add text element in react-three-fiber scene](https://github.com/30in2020/doodles/commit/efc79bc89e180e1d0dc73d0271515af418a176d7) | `Sprite`, `spriteMaterial`             |
-| [Docs: add table of contents in README.md](https://github.com/30in2020/doodles/commit/613ed31009e1bb40a5b2250fa92271ebe3e1404b)          | `Documentation`                        |
+| [Docs: add table of contents in README.md](https://github.com/30in2020/365daysofcommit/commit/613ed31009e1bb40a5b2250fa92271ebe3e1404b)  | `Documentation`                        |
 
 **Links to work**:
 
@@ -492,5 +492,36 @@
 **Reference**:
 
 - [Codesandbox: react-three-fiber & text tutorial](https://codesandbox.io/s/y3j31r13zz)
+
+---
+
+<a name="day-16"></a>
+
+### Day 16: January 16, 2020 (Thu)
+
+**Today's Focus**: Learn how to implement `cron`.
+
+**Details**:
+
+- `Cron` is a tool that allows you to execute something on a schedule. Today I've learned how to implement cron with Node.js. Among the cron libraries that got many stars, there was a module called `cron` which is constantly updated actively, so I chose it to use.
+- Just for practice, I wrote a code that fetching a commit history of [doodles](https://github.com/30in2020/doodles) every five seconds.
+- The reason lately I've been doing these things, such as using `Github API` and `cron`, is because I want to make the 365daysofcommit website later. It would be great if anyone could go into the site and see all the activities I did at once, so now I am looking into the technologies to implement them.
+
+**Commits**:
+
+| Message                                                                                                                                                    | Tags                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| [Feat: create server/cron-experiment directory](https://github.com/30in2020/doodles/commit/1f22bd5bcda200c2601b655cdd50ed4348ee4830)                       | `cron`, `Node.js`, `Typescript`               |
+| [Feat: add dotenv module](https://github.com/30in2020/doodles/commit/7f56a4f7a95044e0742844f0c199b9afc03c9269)                                             | `Node.js`                                     |
+| [Feat: make a cron job which is fetching commit list every 5 seconds](https://github.com/30in2020/doodles/commit/9fb5efd40c58d17039dda9d56cc166a64438e120) | `cron`, `Github API`, `Node.js`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/server/cron-experiment)
+
+**Reference**:
+
+- [Repo: Cron](https://github.com/kelektiv/node-cron)
+- [crontab guru](https://crontab.guru/) : The quick and simple editor for cron schedule.
 
 ---
