@@ -20,6 +20,7 @@
 | [Day 11](#day-11)<br>**01/11/20** |                          **_Github API_**<br>SWR | [Day 12](#day-12)<br>**01/12/20** |                           **_Github API_**<br>GraphQL |
 | [Day 13](#day-13)<br>**01/13/20** |   **_diff2html_**<br>Github API v3, diff & patch | [Day 14](#day-14)<br>**01/14/20** |                         **_diff2html_**<br>Media Type |
 | [Day 15](#day-15)<br>**01/15/20** | **_Documentation_**<br>Sprite, react-three-fiber | [Day 16](#day-16)<br>**01/16/20** |                 **_cron_**<br>Github API, Node.js, TS |
+| [Day 17](#day-17)<br>**01/17/20** |            **_cron_**<br>Github API, Node.js, TS |                                   |                                                       |
 
 ---
 
@@ -523,5 +524,31 @@
 
 - [Repo: Cron](https://github.com/kelektiv/node-cron)
 - [crontab guru](https://crontab.guru/) : The quick and simple editor for cron schedule.
+
+---
+
+<a name="day-17"></a>
+
+### Day 17: January 17, 2020 (Thu)
+
+**Today's Focus**: Fix cron code and decide what to make.
+
+**Details**:
+
+- Added `since` and `until` parameters in commits API (Github V3). Now it will only receive commits between the start and end dates.
+
+**Commits**:
+
+| Message                                                                                                                                   | Tags                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| [Feat: check today's commits history every one hour](https://github.com/30in2020/doodles/commit/f21248c7c6b37241033f20010d333a356f0985fc) | `cron`, `Github API`, `Node.js`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/server/cron-experiment)
+
+**Reference**:
+
+- [Document: List commits on a repository](https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository)
 
 ---
