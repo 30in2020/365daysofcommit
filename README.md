@@ -20,7 +20,7 @@
 | [Day 11](#day-11)<br>**01/11/20** |                          **_Github API_**<br>SWR | [Day 12](#day-12)<br>**01/12/20** |                           **_Github API_**<br>GraphQL |
 | [Day 13](#day-13)<br>**01/13/20** |   **_diff2html_**<br>Github API v3, diff & patch | [Day 14](#day-14)<br>**01/14/20** |                         **_diff2html_**<br>Media Type |
 | [Day 15](#day-15)<br>**01/15/20** | **_Documentation_**<br>Sprite, react-three-fiber | [Day 16](#day-16)<br>**01/16/20** |                 **_cron_**<br>Github API, Node.js, TS |
-| [Day 17](#day-17)<br>**01/17/20** |            **_cron_**<br>Github API, Node.js, TS |                                   |                                                       |
+| [Day 17](#day-17)<br>**01/17/20** |            **_cron_**<br>Github API, Node.js, TS | [Day 18](#day-18)<br>**01/18/20** |         **_Github OAuth_**<br>Github API, Node.js, JS |
 
 ---
 
@@ -550,5 +550,38 @@
 **Reference**:
 
 - [Document: List commits on a repository](https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository)
+
+---
+
+<a name="day-18"></a>
+
+### Day 18: January 18, 2020 (Thu)
+
+**Today's Focus**: Learn and code about authentication using GitHub OAuth
+
+**Details**:
+
+- Learned how to implement authentication by using `Github OAuth`. The flow to authorize users for my app goes like:
+  1. Users are redirected to request their GitHub identity
+  2. Users are redirected back to your site by GitHub
+  3. Your app accesses the API with the user's access token
+- Also learned the difference between `Github App` and `OAuth App`. For now I thought I needed the latter.
+
+**Commits**:
+
+| Message                                                                                                                     | Tags                                   |
+| --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [Feat: create github-oauth directory](https://github.com/30in2020/doodles/commit/e2fe360ede549e940588498d1caa063ece83cc47)  | `Boilerplate`                          |
+| [Feat: add github authentication code](https://github.com/30in2020/doodles/commit/1f6f0e0e0220fcf8ea0d599ae0365771f375c4d6) | `OAuth`, `Github API`, `Node.js`, `JS` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/server/github-oauth)
+
+**Reference**:
+
+- [Docuemnt: Basics of authentication](https://developer.github.com/v3/guides/basics-of-authentication/)
+- [Document: Differences between GitHub Apps and OAuth Apps](https://developer.github.com/apps/differences-between-apps/)
+- [Tutorial: Authentication using GitHub OAuth 2.0 with NodeJS](https://medium.com/shriram-navaratnalingam/authentication-using-github-oauth-2-0-with-nodejs-be1091ce10a7)
 
 ---
