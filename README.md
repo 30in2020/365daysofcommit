@@ -529,7 +529,7 @@
 
 <a name="day-17"></a>
 
-### Day 17: January 17, 2020 (Thu)
+### Day 17: January 17, 2020 (Fri)
 
 **Today's Focus**: Fix cron code and decide what to make.
 
@@ -555,7 +555,7 @@
 
 <a name="day-18"></a>
 
-### Day 18: January 18, 2020 (Thu)
+### Day 18: January 18, 2020 (Sat)
 
 **Today's Focus**: Learn and code about authentication using GitHub OAuth
 
