@@ -585,3 +585,31 @@
 - [Tutorial: Authentication using GitHub OAuth 2.0 with NodeJS](https://medium.com/shriram-navaratnalingam/authentication-using-github-oauth-2-0-with-nodejs-be1091ce10a7)
 
 ---
+
+<a name="day-19"></a>
+
+### Day 19: January 19, 2020 (Sun)
+
+**Today's Focus**: Continue learning authentication using `GitHub OAuth`
+
+**Details**:
+
+- I've misunderstood temporary `code` as `access token`. I had to read the document more carefully...According to the Github document:
+  > If the user accepts your request, GitHub redirects back to your site with a **temporary code** in a code parameter as well as the **state** you provided in the previous step in a state parameter. The temporary code will expire after 10 minutes. If the states don't match, then a third party created the request, and you should abort the process. Exchange this code for an **_access token_**...
+
+**Commits**:
+
+| Message                                                                                                                            | Tags                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [Fix: make oauth login flow behave correctly](https://github.com/30in2020/doodles/commit/6ceb83ef60946577d99f0fe94731bb5b4b2b864b) | `OAuth`, `Github API`, `Node.js`, `JS` |
+| [Fix: fix date](https://github.com/30in2020/365daysofcommit/commit/f8f9d0b9fbc7588d85ceb9a2a319be60bd49396f)                       | `Documentation`, `Typo`                |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/server/github-oauth)
+
+**Reference**:
+
+- [Document: Authorizing OAuth Apps](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/)
+
+---
