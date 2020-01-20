@@ -613,3 +613,32 @@
 - [Document: Authorizing OAuth Apps](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/)
 
 ---
+
+<a name="day-20"></a>
+
+### Day 20: January 20, 2020 (Mon)
+
+**Today's Focus**: Learn how to use `Push Notification` using `Firebase`. Started new project called `commit-gardener`.
+
+**Details**:
+
+- I've misunderstood temporary `code` as `access token`. I had to read the document more carefully...According to the Github document:
+  > If the user accepts your request, GitHub redirects back to your site with a **temporary code** in a code parameter as well as the **state** you provided in the previous step in a state parameter. The temporary code will expire after 10 minutes. If the states don't match, then a third party created the request, and you should abort the process. Exchange this code for an **_access token_**...
+
+**Commits**:
+
+| Message                                                                                                                                                        | Tags                                           |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [🎉 Initial commit](https://github.com/30in2020/commit-gardener/commit/6d5b706ba73b9d8fd2db5fa76681afe0ceb5478a)                                               | `Initial Commit`                               |
+| [Feat: create frontend directory](https://github.com/30in2020/commit-gardener/commit/fdb5034dcee69583a25533f341d6cf7fb177c932)                                 | `Boilerplate`                                  |
+| [Feat: get notification token from client browser using Firebase](https://github.com/30in2020/commit-gardener/commit/cef4a67c7d9f7a8bd0050b55824c8c17cde4f416) | `Firebase`, `Push Notification`, `React`, `TS` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
+
+**Reference**:
+
+- [Document: Firebase official javascript document](https://firebase.google.com/docs/web/setup)
+
+---
