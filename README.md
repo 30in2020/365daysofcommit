@@ -622,16 +622,17 @@
 
 **Details**:
 
-- I've misunderstood temporary `code` as `access token`. I had to read the document more carefully...According to the Github document:
-  > If the user accepts your request, GitHub redirects back to your site with a **temporary code** in a code parameter as well as the **state** you provided in the previous step in a state parameter. The temporary code will expire after 10 minutes. If the states don't match, then a third party created the request, and you should abort the process. Exchange this code for an **_access token_**...
+- Based on what I have learned so far, I'm going to start a new personal project called `commit-gardener`. I want to make a PWA that helps developers to commit every day.
+- The first function I wanted to create was the `push notification`. Simple logic. If you don't push the code in the repository, you'll get a push notification.
+- Thanks to `Firebase`, I could easily get a client device token. I will complete the push notification function if possible tomorrow.
 
 **Commits**:
 
 | Message                                                                                                                                                        | Tags                                           |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| [🎉 Initial commit](https://github.com/30in2020/commit-gardener/commit/6d5b706ba73b9d8fd2db5fa76681afe0ceb5478a)                                               | `Initial Commit`                               |
-| [Feat: create frontend directory](https://github.com/30in2020/commit-gardener/commit/fdb5034dcee69583a25533f341d6cf7fb177c932)                                 | `Boilerplate`                                  |
-| [Feat: get notification token from client browser using Firebase](https://github.com/30in2020/commit-gardener/commit/cef4a67c7d9f7a8bd0050b55824c8c17cde4f416) | `Firebase`, `Push Notification`, `React`, `TS` |
+| [🎉 Initial commit](https://github.com/30in2020/commit-gardener/commit/3f8dcfeaada0ba59c5bb640c9c5a6b36d8501aea)                                               | `Initial Commit`                               |
+| [Feat: create frontend directory](https://github.com/30in2020/commit-gardener/commit/4498b9f3a487c7cc16c8d5172354e2790f5d530c)                                 | `Boilerplate`                                  |
+| [Feat: get notification token from client browser using Firebase](https://github.com/30in2020/commit-gardener/commit/8101923021119bd1d4a5c70f196e7135af931390) | `Firebase`, `Push Notification`, `React`, `TS` |
 
 **Links to work**:
 
