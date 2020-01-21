@@ -643,3 +643,29 @@
 - [Document: Firebase official javascript document](https://firebase.google.com/docs/web/setup)
 
 ---
+
+<a name="day-21"></a>
+
+### Day 21: January 21, 2020 (Tue)
+
+**Today's Focus**: Try to get `Push Notification` correctly (but failed...)
+
+**Details**:
+
+- Yesterday I could get `Instance ID token` of my client. Today, I wanted to receive push notifications sent by Postman, but it didn't worked correctly. I think there is some kinds of bug in the service worker code...I'll have to check it out tomorrow.
+
+**Commits**:
+
+| Message                                                                                                                           | Tags                                           |
+| --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [Feat: try to get push notification](https://github.com/30in2020/commit-gardener/commit/55e60eaa8b796bf4056d94e170df9dae8962bb9c) | `Firebase`, `Push Notification`, `React`, `TS` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
+
+**Reference**:
+
+- [Document: Firebase javascript cloud messaging](https://firebase.google.com/docs/cloud-messaging/js/client)
+
+---
