@@ -669,3 +669,33 @@
 - [Document: Firebase javascript cloud messaging](https://firebase.google.com/docs/cloud-messaging/js/client)
 
 ---
+
+<a name="day-22"></a>
+
+### Day 22: January 22, 2020 (Wed)
+
+**Today's Focus**: Continue, trying to get `Push Notification` correctly (but failed again...)
+
+**Details**:
+
+- Using `Node.js` and `express`, I created a temporary server for sending a notification call. Now the server is responsible for requesting the push notifications to `Firebase`.
+- But anyway, I couldn't make client to receive push notification, while there was no errors. Sent notification successfully, everything looked fine. Don't know why it doesn't work...(It gets notification successfully when I sent it using Firebase Admin dashboard. I think there must be a problem on the client side code.)
+
+**Commits**:
+
+| Message                                                                                                                                                           | Tags                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| [Feat: create backend directory](https://github.com/30in2020/commit-gardener/commit/732e1a864a58020478b47ac0db54a6916a70230d)                                     | `Boilerplate`, `Node.js`                                    |
+| [Feat: make sample push notification API using express server](https://github.com/30in2020/commit-gardener/commit/cb63efb297c0c857f1e5c1e8d7e95cbc9734ce18)       | `express`, `Firebase`, `Push Notification`, `Node.js`, `TS` |
+| [Refactor: refactor push-notification and add sendNotification func](https://github.com/30in2020/commit-gardener/commit/a7adddcc91348716220af3680d59f1188f5f0edf) | `Firebase`, `Push Notification`, `React`, `TS`              |
+| [Feat: make GetTokenButton and NotificationButton](https://github.com/30in2020/commit-gardener/commit/8fb899cce541276314c727cbe17151025c25d933)                   | `Firebase`, `Push Notification`, `React`, `TS`              |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
+
+**Reference**:
+
+- [Stackoverflow: Fire-base web notification not received while no errors](https://stackoverflow.com/questions/49097605/fire-base-web-notification-not-received-while-no-errors)
+
+---
