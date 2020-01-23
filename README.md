@@ -699,3 +699,29 @@
 - [Stackoverflow: Fire-base web notification not received while no errors](https://stackoverflow.com/questions/49097605/fire-base-web-notification-not-received-while-no-errors)
 
 ---
+
+<a name="day-23"></a>
+
+### Day 23: January 23, 2020 (Thu)
+
+**Today's Focus**: Continue, trying to get `Push Notification` when web application (tab) is opened
+
+**Details**:
+
+- Double-checked my code and realized that background (sw) was working fine, which means the notification arrives correctly when the web app is in background. But still, when the user is active in the browser window tab, it fails. It seems `firebase.messaging().OnMessage` isn't called.
+
+**Commits**:
+
+| Message                                                                                                                                           | Tags      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| [Feat: add postman collection for notification test](https://github.com/30in2020/commit-gardener/commit/79c57f9138b471fba274974fd084d8bd10740d26) | `Postman` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
+
+**Reference**:
+
+- [Stackoverflow: The event "firebase.messaging().onMessage" is not called on a real device](https://github.com/invertase/react-native-firebase/issues/1374)
+
+---
