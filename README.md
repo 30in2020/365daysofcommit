@@ -725,3 +725,25 @@
 - [Stackoverflow: The event "firebase.messaging().onMessage" is not called on a real device](https://github.com/invertase/react-native-firebase/issues/1374)
 
 ---
+
+<a name="day-24"></a>
+
+### Day 24: January 24, 2020 (Fri)
+
+**Today's Focus**: Add authentication api using GitHub OAuth
+
+**Details**:
+
+- Having spent nearly two days trying to resolve the notification issue, I decided to start working on the other part. I added authentication api using `Github OAuth`, which I've learned last week. For now only the code is added, and I'm considering the user flow which will determine where the authentication api will be executed.
+
+**Commits**:
+
+| Message                                                                                                                            | Tags                                                    |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| [Feat: add github authentication api](https://github.com/30in2020/commit-gardener/commit/938f0c0c60e59b1fac92f312e6d9bcea10c27294) | `OAuth`, `Github API`, `Node.js`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
+
+---
