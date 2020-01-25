@@ -747,3 +747,37 @@
 - [Main repository](https://github.com/30in2020/commit-gardener)
 
 ---
+
+<a name="day-25"></a>
+
+### Day 25: January 25, 2020 (Sat)
+
+**Today's Focus**: Learn how to set-up a `PWA` development environment. Especially focused on `HTTPS` related issue.
+
+**Details**:
+
+- Service worker wouldn't work unless it's in a `HTTPS` environment, so I had to find out how to set-up a `PWA` development environment with `HTTPS` enabled.
+- There were tons of error when I manually added the .env variable enabling HTTPS, `HTTPS=true`, so I worked hard to fix the issue by searching stackoverflow.
+- As a result, now it's available to use PWA in the development environment on computer. Next I will try to make it available in mobile chrome too.
+
+**Commits**:
+
+| Message                                                                                                                                                       | Tags                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| [Fix: downgrade react-scripts v3.3.0 to v3.2.0](https://github.com/30in2020/commit-gardener/commit/910d9a6cd9627c6ce36f271c03fa5f5a93bb6319)                  | `npm`, `HTTPS`                   |
+| [Feat: add certification for resolving localhost HTTPS warnings](https://github.com/30in2020/commit-gardener/commit/3531206ee3e9f149e0c0fa0f6310cf662afa9205) | `keychain`, `HTTPS`              |
+| [Feat: add script for launching a new instance of chrome](https://github.com/30in2020/commit-gardener/commit/3ab61c5b2e8347f614ed6b926b2a6d679b0f2133)        | `chrome`, `HTTPS`                |
+| [Refactor: clean the frontend code](https://github.com/30in2020/commit-gardener/commit/6c49b046072d3b2b538d2578cceb60a89f7939d3)                              | `Node.js`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
+
+**Reference**:
+
+- [Stackoverflow: Failed to construct 'WebSocket': An insecure WebSocket connection may not be initiated from a page loaded over HTTPS](https://stackoverflow.com/questions/59359280/react-app-error-failed-to-construct-websocket-an-insecure-websocket-connecti)
+- [Stackoverflow: How can I provide a SSL certificate with create-react-app?](https://stackoverflow.com/questions/41192491/how-can-i-provide-a-ssl-certificate-with-create-react-app)
+- [Tutorial: Never see localhost HTTPS warnings again](https://expeditedsecurity.com/blog/localhost-ssl-fix/)
+- [Tutorial: Testing Service Workers locally with self signed certificates](https://deanhume.com/testing-service-workers-locally-with-self-signed-certificates/)
+
+---
