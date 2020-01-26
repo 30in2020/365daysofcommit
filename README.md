@@ -781,3 +781,32 @@
 - [Tutorial: Testing Service Workers locally with self signed certificates](https://deanhume.com/testing-service-workers-locally-with-self-signed-certificates/)
 
 ---
+
+<a name="day-26"></a>
+
+### Day 26: January 26, 2020 (Sun)
+
+**Today's Focus**: Implement login logic using Github OAuth
+
+**Details**:
+
+- Like the day before yesterday, I wrote a code related to login logic using `Github OAuth`. And also added some `routing` codes.
+- The login procedure I coded today is:
+  1. [FE] Request login call to Github
+  2. [FE] Get `code` value from `Github OAuth` query callback
+  3. [FE] Wait until the user allows permission to use notifications
+  4. [FE] If user granted the permission, Send `code` and `client FCM token` to server.
+  5. [BE] On server, send `code` to Github and receive the `access token`
+  6. [BE](TBD) Save `access token` and `client FCM token` in DB.
+- I guess the `Github access token` needs to be stored at secure storage like DB...so the logic needs to be modify.
+
+**Commits**:
+
+| Message                                                                                                                                                  | Tags                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| [Feat: add routes, and get access token using Github OAuth](https://github.com/30in2020/commit-gardener/commit/05d13f221e0a0ca5dd7953ad3ca0a0cc70ccb8a4) | `OAuth`, `Github API`, `Node.js`, `React`, `Typescript` |
+| [Fix: fix lint warnings](https://github.com/30in2020/commit-gardener/commit/511c677f7564c5d6bbf01d98d1f84630b3589362)                                    | `lint`, `React`, `Typescript`                           |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
