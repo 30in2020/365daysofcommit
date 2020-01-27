@@ -810,3 +810,32 @@
 **Links to work**:
 
 - [Main repository](https://github.com/30in2020/commit-gardener)
+
+---
+
+<a name="day-27"></a>
+
+### Day 27: January 27, 2020 (Mon)
+
+**Today's Focus**: Learn how to use `react-hook-form` library.
+
+**Details**:
+
+- Learned how to use `react-hook-form` and had time to read the official document. I've heard a lot about `Formik`, but recently many people around me told me about `react-hook-form`, so I became interested.
+- First impression: Clean document. Reduces the amount of code I have to write. Simple. Easy to deal with validation logic.
+
+**Commits**:
+
+| Message                                                                                                                                  | Tags                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [Feat: create react-hook-form-experiment directory](https://github.com/30in2020/doodles/commit/0f8554d24a9693cb9f0462024c2376c827cc3ee6) | `Boilerplate`                            |
+| [Feat: make a sample code of react-hook-form](https://github.com/30in2020/doodles/commit/130df6b920fe5445b99359f2d5a304f03a849d94)       | `react-hook-form`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/react-hook-form-experiment)
+
+**Reference**:
+
+- [Document: react-hook-form API Document](https://react-hook-form.com/api/)
+- [Blog: React Hook Form vs. Formik: A technical and performance comparison](https://blog.logrocket.com/react-hook-form-vs-formik-a-technical-and-performance-comparison/)
