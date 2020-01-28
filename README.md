@@ -844,3 +844,26 @@
 
 - [Document: react-hook-form API Document](https://react-hook-form.com/api/)
 - [Blog: React Hook Form vs. Formik: A technical and performance comparison](https://blog.logrocket.com/react-hook-form-vs-formik-a-technical-and-performance-comparison/)
+
+---
+
+<a name="day-28"></a>
+
+### Day 28: January 28, 2020 (Tue)
+
+**Today's Focus**: ...Just sent PR for fixing a bug in the `react-hook-form` official document.
+
+**Details**:
+
+- I had an extremely busy day, so the only commit I pushed today was a bug fix of `react-hook-form` official document. There was a broken link only on translated page, so I fixed it.
+
+**Commits**:
+
+| Message                                                                                                                                                | Tags             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
+| [Fix navigation error when using translated page](https://github.com/30in2020/react-hook-form-website/commit/af5501985729d96add89324dd98b816915e6660a) | `Document`, `PR` |
+| [Docs: update table of contents in README.md](https://github.com/30in2020/365daysofcommit/commit/9ff3d92ddb48e74395a2464f43cb8f603723753f)             | `Documentation`  |
+
+**Links to work**:
+
+- [PR](https://github.com/react-hook-form/react-hook-form-website/pull/158)
