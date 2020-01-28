@@ -21,6 +21,11 @@
 | [Day 13](#day-13)<br>**01/13/20** |   **_diff2html_**<br>Github API v3, diff & patch | [Day 14](#day-14)<br>**01/14/20** |                         **_diff2html_**<br>Media Type |
 | [Day 15](#day-15)<br>**01/15/20** | **_Documentation_**<br>Sprite, react-three-fiber | [Day 16](#day-16)<br>**01/16/20** |                 **_cron_**<br>Github API, Node.js, TS |
 | [Day 17](#day-17)<br>**01/17/20** |            **_cron_**<br>Github API, Node.js, TS | [Day 18](#day-18)<br>**01/18/20** |         **_Github OAuth_**<br>Github API, Node.js, JS |
+| [Day 19](#day-19)<br>**01/19/20** |    **_GitHub OAuth_**<br>Github API, Node.js, JS | [Day 20](#day-20)<br>**01/20/20** |                   **_Push Notification_**<br>Firebase |
+| [Day 21](#day-21)<br>**01/21/20** |              **_Push Notification_**<br>Firebase | [Day 22](#day-22)<br>**01/22/20** |          **_Push Notification_**<br>Firebase, Express |
+| [Day 23](#day-23)<br>**01/23/20** |               **_Push Notification_**<br>Postman | [Day 24](#day-24)<br>**01/24/20** |         **_Github OAuth_**<br>Github API, Node.js, TS |
+| [Day 25](#day-25)<br>**01/25/20** |                  **_PWA_**<br>HTTPS, Development | [Day 26](#day-26)<br>**01/26/20** |      **_Github OAuth_**<br>Github API, Node.js, React |
+| [Day 27](#day-27)<br>**01/27/20** |               **_react-hook-form_**<br>React, TS | [Day 28](#day-28)<br>**01/28/20** |                           **_react-hook-form_**<br>PR |
 
 ---
 
