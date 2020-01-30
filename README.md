@@ -896,3 +896,29 @@
 - [Document: TypeORM](https://typeorm.io/)
 - [Document: TypeGraphQL](https://typegraphql.ml/)
 - [Tutorial: JWT Authentication Node.js Tutorial with GraphQL and React](https://www.youtube.com/watch?v=25GS0MLT8JU)
+
+---
+
+<a name="day-30"></a>
+
+### Day 30: January 30, 2020 (Thu)
+
+**Today's Focus**: Learn `Chakra` UI library.
+
+**Details**:
+
+- Tried `Chakra` UI library for the first time. `Chakra` provides a lot of components with minimal design, instead of being opinionated on the design, which I wanted.
+
+**Commits**:
+
+| Message                                                                                                                        | Tags           |
+| ------------------------------------------------------------------------------------------------------------------------------ | -------------- |
+| [Feat: update form style using chakra-ui](https://github.com/30in2020/doodles/commit/3fc151d71b813b418d6f8269fcc15918f2cad51f) | `Chakra`, `UI` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/react-hook-form-experiment)
+
+**Reference**:
+
+- [Document: Chakra](https://chakra-ui.com/)
