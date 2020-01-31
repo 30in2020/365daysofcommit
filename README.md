@@ -922,3 +922,30 @@
 **Reference**:
 
 - [Document: Chakra](https://chakra-ui.com/)
+
+---
+
+<a name="day-31"></a>
+
+### Day 31: January 31, 2020 (Fri)
+
+**Today's Focus**: Refactoring `react-hook-form-experiment`.
+
+**Details**:
+
+- Created a Form component to generate form easily. Doing this, it will automatically pass `register` props to children component.
+- But `reValidateMode: "onChange"` seems not working after I refactored the code. Maybe there is something I missed.
+
+**Commits**:
+
+| Message                                                                                                                                                 | Tags                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [Refactor: create a Form component to generate form automatically](https://github.com/30in2020/doodles/commit/ff438458a9840776cd9e9d48db275f36c8f90a37) | `react-hook-form`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/react-hook-form-experiment)
+
+**Reference**:
+
+- [Document: Smart Form Component](https://react-hook-form.com/advanced-usage#SmartFormComponent)
