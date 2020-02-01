@@ -949,3 +949,31 @@
 **Reference**:
 
 - [Document: Smart Form Component](https://react-hook-form.com/advanced-usage#SmartFormComponent)
+
+---
+
+<a name="day-32"></a>
+
+### Day 32: February 1, 2020 (Sat)
+
+**Today's Focus**: Restructure `react-hook-form` using `FormContext` API.
+
+**Details**:
+
+- Fixed the issue I mentioned yesterday. Now `reValidateMode: "onChange"` works correctly.
+- I found an interesting API called `FormContext`. It works like `react-context`, so you can avoid a painful pattern passing methods deep down as props.
+
+**Commits**:
+
+| Message                                                                                                                             | Tags                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [Fix: fix revalidation issue in Form](https://github.com/30in2020/doodles/commit/d0ff133040c6b6995c7489a8cded65f6a609aa61)          | `react-hook-form`, `React`, `Typescript` |
+| [Refactor: restructure form using FormContext](https://github.com/30in2020/doodles/commit/32da1068cd241e03823dd4e04a119d8de54fe571) | `react-hook-form`, `React`, `Typescript` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/react-hook-form-experiment)
+
+**Reference**:
+
+- [Document: API - useFormContext](https://react-hook-form.com/api#useFormContext)
