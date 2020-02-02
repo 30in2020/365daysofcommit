@@ -977,3 +977,35 @@
 **Reference**:
 
 - [Document: API - useFormContext](https://react-hook-form.com/api#useFormContext)
+
+---
+
+<a name="day-33"></a>
+
+### Day 33: February 2, 2020 (Sun)
+
+**Today's Focus**: Setting up `PostgreSQL` with `Docker`
+
+**Details**:
+
+- Don't know why, but there was an error constantly when using `PostgreSQL`, like below
+  ```
+  could not connect to server: No such file or directory. Is the server running locally and accepting connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+  ```
+  It was so stressful to find a reason why it happens, so I decided to use `docker` to separate the development environment.
+
+**Commits**:
+
+| Message                                                                                                                               | Tags        |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [Refactor: update server module version](https://github.com/30in2020/commit-gardener/commit/75f810f638ec562cf2627586a93a852213c51d8c) | `npm`       |
+| [Refactor: gitignore ormconfig.json](https://github.com/30in2020/doodles/commit-gardener/db4a8d3a0cd28cd9c06badfd46f205f8c5b2aa71)    | `gitignore` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
+
+**Reference**:
+
+- [Tutorial: Setting up Docker & PostgreSQL — Connecting Locally](https://medium.com/@rrfd/setting-up-docker-postgresql-connecting-locally-using-advanced-functions-d8fe3bd58de6)
+- [StackExchange: PostgreSQL not running on Mac](https://dba.stackexchange.com/questions/75214/postgresql-not-running-on-mac)
