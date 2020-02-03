@@ -989,9 +989,13 @@
 **Details**:
 
 - Don't know why, but there was an error constantly when using `PostgreSQL`, like below
+
   ```
-  could not connect to server: No such file or directory. Is the server running locally and accepting connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+  could not connect to server: No such file or directory.
+  Is the server running locally and accepting connections
+  on Unix domain socket "/tmp/.s.PGSQL.5432"?
   ```
+
   It was so stressful to find a reason why it happens, so I decided to use `docker` to separate the development environment.
 
 **Commits**:
@@ -1009,3 +1013,32 @@
 
 - [Tutorial: Setting up Docker & PostgreSQL — Connecting Locally](https://medium.com/@rrfd/setting-up-docker-postgresql-connecting-locally-using-advanced-functions-d8fe3bd58de6)
 - [StackExchange: PostgreSQL not running on Mac](https://dba.stackexchange.com/questions/75214/postgresql-not-running-on-mac)
+
+---
+
+<a name="day-34"></a>
+
+### Day 34: February 3, 2020 (Mon)
+
+**Today's Focus**: Learn how to use `apollo-server`, `TypeORM` and `type-graphql`. Learn `Active Record` and `Data Mapper` pattern.
+
+**Details**:
+
+- Back to code the `commit-gardener` again! I tried `type-graphql` and `TypeORM` to create server API based on GraphQL. What I did today is just defining 'User' entity and writing some sample codes.
+- Also I learned two major pattern for `TypeORM`, `Active Record` and `Data Mapper` pattern. For keeping code simple, I chose the former approach.
+
+**Commits**:
+
+| Message                                                                                                                                                  | Tags                                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [Feat: install apollo-server, class-validator, TypeGraphQL](https://github.com/30in2020/commit-gardener/commit/9c0120a183e59a140427be5013a53ca3f93706f1) | `npm`                                                  |
+| [Feat: define user entity](https://github.com/30in2020/doodles/commit-gardener/8265bafe3ffb7de171669a539d5208ecb65a345a)                                 | `TypeGraphQL`, `TypeORM`, `class-validator`, `Node,js` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
+
+**Reference**:
+
+- [Tutorial: How to build a GraphQL API with TypeGraphQL and TypeORM](https://blog.logrocket.com/how-build-graphql-api-typegraphql-typeorm/)
+- [Document: Active Record vs Data Mapper](https://github.com/typeorm/typeorm/blob/master/docs/active-record-data-mapper.md)
