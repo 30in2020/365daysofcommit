@@ -1042,3 +1042,29 @@
 
 - [Tutorial: How to build a GraphQL API with TypeGraphQL and TypeORM](https://blog.logrocket.com/how-build-graphql-api-typegraphql-typeorm/)
 - [Document: Active Record vs Data Mapper](https://github.com/typeorm/typeorm/blob/master/docs/active-record-data-mapper.md)
+
+---
+
+<a name="day-35"></a>
+
+### Day 35: February 4, 2020 (Tue)
+
+**Today's Focus**: Continue coding `GraphQL` API.
+
+**Details**:
+
+- Continue coding `GraphQL` API. Added mutation code which creates 'User'.
+
+**Commits**:
+
+| Message                                                                                                                 | Tags                                |
+| ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| [Feat: add createUser API](https://github.com/30in2020/commit-gardener/commit/f5d654596e596dbaee0aab2770d491f72f34ff74) | `TypeGraphQL`, `TypeORM`, `Node.js` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/commit-gardener)
+
+**Reference**:
+
+- [Tutorial: How to build a GraphQL API with TypeGraphQL and TypeORM](https://blog.logrocket.com/how-build-graphql-api-typegraphql-typeorm/)
