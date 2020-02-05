@@ -1068,3 +1068,30 @@
 **Reference**:
 
 - [Tutorial: How to build a GraphQL API with TypeGraphQL and TypeORM](https://blog.logrocket.com/how-build-graphql-api-typegraphql-typeorm/)
+
+---
+
+<a name="day-36"></a>
+
+### Day 36: February 5, 2020 (Wed)
+
+**Today's Focus**: Practice UI prototyping using `Chakra`
+
+**Details**:
+
+- After looking at several UI libraries, I'm going to learn and practice `Chakra`. So I made new doodle directory and tried some theme-related code. Tried `ColorMode` and global custom theme functions.
+
+**Commits**:
+
+| Message                                                                                                                       | Tags                                  |
+| ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| [Feat: create chakra-practice directory](https://github.com/30in2020/doodles/commit/dbbdce1363a17d051ca9704fb4837d9d15f040b4) | `Boilerplate`                         |
+| [Feat: add ThemeProvider and colorMode](https://github.com/30in2020/doodles/commit/e1bd27ff38a30a4c271b4ced1d6e1803f69a5b74)  | `Chakra`, `React`, `Typescript`, `UI` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/chakra-practice)
+
+**Reference**:
+
+- [Document: Color mode](https://chakra-ui.com/color-mode)
