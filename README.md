@@ -1095,3 +1095,32 @@
 **Reference**:
 
 - [Document: Color mode](https://chakra-ui.com/color-mode)
+
+---
+
+<a name="day-37"></a>
+
+### Day 37: February 6, 2020 (Thu)
+
+**Today's Focus**: Learn how to use `CSS Grid`.
+
+**Details**:
+
+- I've always used `Flexbox` for layouts but this time I wanted to try something new, so I learned `CSS Grid` and code Grid component using `Chakra`.
+- Wonder how to write `grid-template-areas` in React inline style.
+- (Oh, I found the answer actually. Just use backtick strings. I will fix it tomorrow.)
+
+**Commits**:
+
+| Message                                                                                                      | Tags                    |
+| ------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| [Feat: add grid system](https://github.com/30in2020/doodles/commit/46b3c4c09c07963f66b5129e188b01a60bf676e9) | `CSS`, `Grid`, `Chakra` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/chakra-practice)
+
+**Reference**:
+
+- [Document: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Stackoverflow: How to use grid-template-areas in react inline style?](https://stackoverflow.com/questions/47743472/how-to-use-grid-template-areas-in-react-inline-style)
