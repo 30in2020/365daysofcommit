@@ -1124,3 +1124,30 @@
 
 - [Document: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Stackoverflow: How to use grid-template-areas in react inline style?](https://stackoverflow.com/questions/47743472/how-to-use-grid-template-areas-in-react-inline-style)
+
+---
+
+<a name="day-38"></a>
+
+### Day 38: February 7, 2020 (Fri)
+
+**Today's Focus**: Continue Learning how to use `CSS Grid`.
+
+**Details**:
+
+- Continue, learned how to use `CSS Grid`. Using `grid-column` instead of `template-areas` looked much cleaner, so I rewrote the code.
+
+**Commits**:
+
+| Message                                                                                                                                    | Tags                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| [Refactor: use grid-column instead of template-areas](https://github.com/30in2020/doodles/commit/7d8ec7e66574c8427c036afea4d8640b4adfdb59) | `CSS`, `Grid`, `Chakra` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/chakra-practice)
+
+**Reference**:
+
+- [Document: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Document: Chakra Responsive Styles](https://chakra-ui.com/responsive-styles)
