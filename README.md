@@ -1151,3 +1151,31 @@
 
 - [Document: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Document: Chakra Responsive Styles](https://chakra-ui.com/responsive-styles)
+
+---
+
+<a name="day-39"></a>
+
+### Day 39: February 8, 2020 (Sat)
+
+**Today's Focus**: Continue Learning how to use `Chakra` and `CSS Grid` effectively.
+
+**Details**:
+
+- Instead of focusing on actual coding, today I tried to understand the basic functions of `CSS Grid`, and how to code the layout more effectively. There is some links of references I read below.
+
+**Commits**:
+
+| Message                                                                                                                   | Tags                    |
+| ------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| [Feat: separate to small components](https://github.com/30in2020/doodles/commit/92f51a17eec49d50549fcc608f9517cbfe49fafe) | `CSS`, `Grid`, `Chakra` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/chakra-practice)
+
+**Reference**:
+
+- [Youtube: Grid by Example: minmax()](https://www.youtube.com/watch?v=boNNYrUd-w0)
+- [Intrinsically Responsive CSS Grid with minmax() and min()](https://css-tricks.com/intrinsically-responsive-css-grid-with-minmax-and-min/)
+- [Document: Chakra Responsive Styles](https://chakra-ui.com/responsive-styles)
