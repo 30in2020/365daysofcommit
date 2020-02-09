@@ -1179,3 +1179,32 @@
 - [Youtube: Grid by Example: minmax()](https://www.youtube.com/watch?v=boNNYrUd-w0)
 - [Intrinsically Responsive CSS Grid with minmax() and min()](https://css-tricks.com/intrinsically-responsive-css-grid-with-minmax-and-min/)
 - [Document: Chakra Responsive Styles](https://chakra-ui.com/responsive-styles)
+
+---
+
+<a name="day-40"></a>
+
+### Day 40: February 9, 2020 (Sun)
+
+**Today's Focus**: Learn how to use `JWT` in javascript environment.
+
+**Details**:
+
+- Learned the basic of `JWT`. Learned the differences between 'Registered Claim', 'Public Claim', and 'Private Claim'. Also learned how to use `JWT` in javascript environment.
+
+**Commits**:
+
+| Message                                                                                                                    | Tags          |
+| -------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| [Feat: create jwt-practice directory](https://github.com/30in2020/doodles/commit/18304d5b41ece02834b2a502111194f08953f568) | `Boilerplate` |
+| [Feat: add JWT basic sample code](https://github.com/30in2020/doodles/commit/9ea7ad2fae4e89a0589d43bdd8288cb8fa33de68)     | `JWT`         |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/jwt-practice)
+
+**Reference**:
+
+- [Document: JWT introduction](https://jwt.io/introduction/)
+- [Github: node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
+- [Internet Standards Document: JSON Web Token](https://tools.ietf.org/html/rfc7519#section-4.1)
