@@ -1208,3 +1208,29 @@
 - [Document: JWT introduction](https://jwt.io/introduction/)
 - [Github: node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
 - [Internet Standards Document: JSON Web Token](https://tools.ietf.org/html/rfc7519#section-4.1)
+
+---
+
+<a name="day-41"></a>
+
+### Day 41: February 10, 2020 (Mon)
+
+**Today's Focus**: Try to use RSA keypair for `JWT` generation and verification. (but failed..)
+**Details**:
+
+- A function generating RSA keypair only existed on Node.js `Crypto` module, so I had to use a third-party module. Found a module called `node-forge`, which provides some crypto APIs for browser (and also Node.js).
+- Try to use private key and public key for `JWT` generation and verification, but it failed...need to find what I missed.
+
+**Commits**:
+
+| Message                                                                                                                      | Tags                          |
+| ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| [Feat: try to use RSA keypair with JWT](https://github.com/30in2020/doodles/commit/8f9f0192e98eaca5c87986f876a906774b2bc1fd) | `JWT`, `Crypto`, `node-forge` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/jwt-practice)
+
+**Reference**:
+
+- [Document: node-forge](https://www.npmjs.com/package/node-forge#rsa)
