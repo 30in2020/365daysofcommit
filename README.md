@@ -1234,3 +1234,32 @@
 **Reference**:
 
 - [Document: node-forge](https://www.npmjs.com/package/node-forge#rsa)
+
+---
+
+<a name="day-42"></a>
+
+### Day 42: February 11, 2020 (Tue)
+
+**Today's Focus**: Continue learning how to use `JWT` with RSA keypair.
+
+**Details**:
+
+- Learned the difference between `RS256` vs `HS256` signing algorithms when using `JWT`
+- Realized that `node-jsonwebtoken` accepts RSA SHA256 type private key.
+
+**Commits**:
+
+| Message                                                                                                                           | Tags                  |
+| --------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| [Chore: add JWT RS256 key generation script](https://github.com/30in2020/doodles/commit/a96ee01debb9fe90475064e8884042809642ee6c) | `JWT`, `Crypto`, `sh` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/jwt-practice)
+
+**Reference**:
+
+- [Document: node-jsonwebtoken#usage](https://github.com/auth0/node-jsonwebtoken#usage)
+- [Gist: jwtRS256.sh](https://gist.github.com/ygotthilf/baa58da5c3dd1f69fae9)
+- [JWT signing algorithms RS256 vs HS256](https://community.auth0.com/t/jwt-signing-algorithms-rs256-vs-hs256/7720/2)
