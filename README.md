@@ -1263,3 +1263,35 @@
 - [Document: node-jsonwebtoken#usage](https://github.com/auth0/node-jsonwebtoken#usage)
 - [Gist: jwtRS256.sh](https://gist.github.com/ygotthilf/baa58da5c3dd1f69fae9)
 - [JWT signing algorithms RS256 vs HS256](https://community.auth0.com/t/jwt-signing-algorithms-rs256-vs-hs256/7720/2)
+
+---
+
+<a name="day-43"></a>
+
+### Day 43: February 12, 2020 (Wed)
+
+**Today's Focus**: Learn `Neumorphism` in User Interfaces and create a neumorphism button
+
+**Details**:
+
+![neumorphism_button](./assets/Feb-13-2020_neumorphism_button.gif "Neumorphism button with hover interaction")
+
+> Neumorphism button with hover interaction
+
+- Learned the `Neumorphism` trend in user interfaces, and try to implement a neumorphism-ish button. I don't think it will be a big design trend in 2020, but anyway it looked fun so I tried it.
+
+**Commits**:
+
+| Message                                                                                                                                                   | Tags                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [Feat: create neumorphism-button directory and implement the button](https://github.com/30in2020/doodles/commit/42a0668d439a4d76f7845f04cd83e1f8ad7e6e0b) | `Neumorphism`, `CSS`, `UI`, `Graphics` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/neumorphism-button)
+
+**Reference**:
+
+- [Article: Neumorphism in user interfaces](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)
+- [Neumorphism.io: Generate Soft-UI CSS code](https://neumorphism.io/)
+- [jsfiddle: box shadow keyframe transition](http://jsfiddle.net/xq4qc/1/)
