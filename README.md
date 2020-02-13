@@ -1295,3 +1295,25 @@
 - [Article: Neumorphism in user interfaces](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)
 - [Neumorphism.io: Generate Soft-UI CSS code](https://neumorphism.io/)
 - [jsfiddle: box shadow keyframe transition](http://jsfiddle.net/xq4qc/1/)
+
+---
+
+<a name="day-44"></a>
+
+### Day 44: February 13, 2020 (Thu)
+
+**Today's Focus**: Continue playing with `Neumorphism` UIs.
+
+**Details**:
+
+- Continue playing with neumorphism-button repo. Made the button animation triggered by onclick event.
+
+**Commits**:
+
+| Message                                                                                                                                | Tags                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [Feat: trigger button animation by onclick event](https://github.com/30in2020/doodles/commit/70d2f84a00e8d5f637c7dbd6fa53fa1372e59da6) | `Neumorphism`, `CSS`, `UI`, `Graphics` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/neumorphism-button)
