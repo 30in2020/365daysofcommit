@@ -1317,3 +1317,25 @@
 **Links to work**:
 
 - [Main repository](https://github.com/30in2020/doodles/tree/master/graphics/neumorphism-button)
+
+---
+
+<a name="day-45"></a>
+
+### Day 45: February 14, 2020 (Fri)
+
+**Today's Focus**: Resolving the issue how to import RSA keypair using with `JWT`.
+
+**Details**:
+
+- ...Well finally resolved the issue occured when importing the RSA keypair for using `JWT` signing. The key was a backslash (\). I put a backslash all the end of the lines of RSA private key and public key string, and it finally worked! Spent a lot of time with this...
+
+**Commits**:
+
+| Message                                                                                                                                  | Tags                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| [Refactor: enable JWT sign and verification by RSA](https://github.com/30in2020/doodles/commit/004336cee85e492d29e6c83c89e33e56b7e227e1) | `RSA`, `Crypto`, `JWT` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/react/jwt-practice)
