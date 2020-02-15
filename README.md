@@ -1339,3 +1339,32 @@
 **Links to work**:
 
 - [Main repository](https://github.com/30in2020/doodles/tree/master/react/jwt-practice)
+
+---
+
+<a name="day-46"></a>
+
+### Day 46: February 15, 2020 (Sat)
+
+**Today's Focus**: Install `Go` and `A Tour of Go` in local environment.
+
+**Details**:
+
+- I'm planning a trip next month for like 10 days, so there won't be enough time for coding the existing project. Instead, I decided to learn `Go` using `A Tour of Go` when I'm on a trip. There will be no wi-fi so I installed the `A Tour of Go` in local environment.
+
+**Commits**:
+
+| Message                                                                                                                           | Tags             |
+| --------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| [Feat: install Go and A Tour of Go in local](https://github.com/30in2020/doodles/commit/33a4982c93340bbd8b0b07b9055143ec1aea7dd6) | `Go`, `Tutorial` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/go/go-tour)
+
+**Reference**:
+
+- [A Tour of Go: Go Offline](https://tour.golang.org/welcome/3)
+- [Tutorial: Install Go tour on Mac](https://qiita.com/ikenyal/items/4050a660fdef1b55a932)
+
+---
