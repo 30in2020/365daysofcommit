@@ -1368,3 +1368,29 @@
 - [Tutorial: Install Go tour on Mac](https://qiita.com/ikenyal/items/4050a660fdef1b55a932)
 
 ---
+
+<a name="day-47"></a>
+
+### Day 47: February 16, 2020 (Sun)
+
+**Today's Focus**: Learn how to use `Google Apps Script` with `Google Spreadsheets`
+
+**Details**:
+
+- I heard that there is a script language that can be used with `Google Spreadsheets`, called `Google Apps Script`, so I tried to use it.
+- A sample code I wrote is fetching the price of Bitcoin from the exchange every minute and setting the value in the cell of Google Spreadsheets.
+- You can see the sample sheet at [here](https://docs.google.com/spreadsheets/d/1j6cglgcU7446rqqqUCI-CXvmGptSDbGWPvFl_iRBtws/edit?usp=sharing).
+
+**Commits**:
+
+| Message                                                                                                                           | Tags                 |
+| --------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| [Feat: add sample code of google app script](https://github.com/30in2020/doodles/commit/cbfde01bfbca7072907e738ec993d48b9935e515) | `Google Apps Script` |
+
+**Links to work**:
+
+- [Main repository](https://github.com/30in2020/doodles/tree/master/etc/google-app-script)
+
+**Reference**:
+
+- [Document: UrlFetchApp](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app)
